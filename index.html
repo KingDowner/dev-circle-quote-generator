@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A quote generator built by The Dev Circle.">
+  <title>Daily Inspiration | The Dev Circle</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <script src="{{ url_for('static', filename='script.js') }}" defer></script>
+</head>
+<body>
+  <main class="card">
+    <p class="eyebrow">THE DEV CIRCLE</p>
+    <h1>Daily Inspiration</h1>
+    <section class="quote-box" aria-label="Daily quote" aria-live="polite">
+      <p id="quote-text">Every great developer starts somewhere.</p>
+      <p id="quote-author">— The Dev Circle</p>
+    </section>
+    <button type="button" id="new-quote">Generate Another Quote</button>
+    <p class="hint">Made together by The Dev Circle 💜</p>
+  </main>
+</body>
+</html>

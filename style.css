@@ -1,0 +1,35 @@
+:root {
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  color: #f6f7ff;
+  background: #0c1021;
+}
+* { box-sizing: border-box; }
+body {
+  min-height: 100vh;
+  margin: 0;
+  display: grid;
+  place-items: center;
+  padding: 1.5rem;
+}
+.card {
+  width: min(100%, 34rem);
+  background: #191e35;
+  border-radius: 1.5rem;
+  padding: 2rem;
+  text-align: center;
+}
+.eyebrow { color: #b5a6ff; font-size: .85rem; font-weight: 700; letter-spacing: .12em; }
+.quote-box { background: #282e48; border-radius: 1rem; padding: 1.5rem; margin: 1.5rem 0; }
+#quote-text { font-size: 1.35rem; font-weight: 600; line-height: 1.5; }
+#quote-author, .hint { color: #c3c7d9; }
+button {
+  width: 100%;
+  border: 0;
+  border-radius: 99px;
+  padding: .9rem;
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+}
+button:focus-visible { outline: 3px solid #b5a6ff; outline-offset: 3px; }
+/* TODO (CSS teammate): hover states, mobile polish, design enhancements */
